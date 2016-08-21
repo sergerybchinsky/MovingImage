@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9118201D6830BB002EC447 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91181F1D6830BB002EC447 /* Rectangle.m */; };
+		CE9118251D685F6E002EC447 /* RectCoordinateCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9118241D685F6E002EC447 /* RectCoordinateCollection.m */; };
+		CE9118321D686695002EC447 /* ImageContanierView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9118311D686695002EC447 /* ImageContanierView.m */; };
+		CE9118351D686B04002EC447 /* ImageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9118341D686B04002EC447 /* ImageMap.m */; };
+		CE9118391D68703B002EC447 /* MockData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9118381D68703B002EC447 /* MockData.m */; };
+		CECBB6631D6A205A00C11E6E /* testImages.png in Resources */ = {isa = PBXBuildFile; fileRef = CECBB6621D6A205A00C11E6E /* testImages.png */; };
 		CED92BB11D65C1370079C55D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED92BB01D65C1370079C55D /* main.m */; };
 		CED92BB41D65C1370079C55D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED92BB31D65C1370079C55D /* AppDelegate.m */; };
-		CED92BB71D65C1370079C55D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED92BB61D65C1370079C55D /* ViewController.m */; };
+		CED92BB71D65C1370079C55D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED92BB61D65C1370079C55D /* MainViewController.m */; };
 		CED92BBA1D65C1370079C55D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED92BB81D65C1370079C55D /* Main.storyboard */; };
 		CED92BBC1D65C1380079C55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED92BBB1D65C1380079C55D /* Assets.xcassets */; };
 		CED92BBF1D65C1380079C55D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED92BBD1D65C1380079C55D /* LaunchScreen.storyboard */; };
@@ -35,12 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE91181E1D682EF8002EC447 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		CE91181F1D6830BB002EC447 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		CE9118241D685F6E002EC447 /* RectCoordinateCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectCoordinateCollection.m; sourceTree = "<group>"; };
+		CE9118271D685F93002EC447 /* RectCoordinateCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectCoordinateCollection.h; sourceTree = "<group>"; };
+		CE91182D1D686548002EC447 /* RectStrucs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectStrucs.h; sourceTree = "<group>"; };
+		CE9118301D686686002EC447 /* ImageContanierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageContanierView.h; sourceTree = "<group>"; };
+		CE9118311D686695002EC447 /* ImageContanierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageContanierView.m; sourceTree = "<group>"; };
+		CE9118331D6867CD002EC447 /* ImageMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMap.h; sourceTree = "<group>"; };
+		CE9118341D686B04002EC447 /* ImageMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMap.m; sourceTree = "<group>"; };
+		CE9118371D687008002EC447 /* MockData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockData.h; sourceTree = "<group>"; };
+		CE9118381D68703B002EC447 /* MockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockData.m; sourceTree = "<group>"; };
+		CECBB6621D6A205A00C11E6E /* testImages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImages.png; sourceTree = "<group>"; };
 		CED92BAC1D65C1370079C55D /* MovingImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovingImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED92BB01D65C1370079C55D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CED92BB21D65C1370079C55D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED92BB31D65C1370079C55D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CED92BB51D65C1370079C55D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CED92BB61D65C1370079C55D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CED92BB51D65C1370079C55D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CED92BB61D65C1370079C55D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		CED92BB91D65C1370079C55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED92BBB1D65C1380079C55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED92BBE1D65C1380079C55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +96,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE9118171D6826DA002EC447 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE91181E1D682EF8002EC447 /* Rectangle.h */,
+				CE91181F1D6830BB002EC447 /* Rectangle.m */,
+				CE9118271D685F93002EC447 /* RectCoordinateCollection.h */,
+				CE9118241D685F6E002EC447 /* RectCoordinateCollection.m */,
+				CE91182D1D686548002EC447 /* RectStrucs.h */,
+				CE9118331D6867CD002EC447 /* ImageMap.h */,
+				CE9118341D686B04002EC447 /* ImageMap.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE91182E1D68663B002EC447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9118301D686686002EC447 /* ImageContanierView.h */,
+				CE9118311D686695002EC447 /* ImageContanierView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE9118361D686FF2002EC447 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CECBB6621D6A205A00C11E6E /* testImages.png */,
+				CE9118371D687008002EC447 /* MockData.h */,
+				CE9118381D68703B002EC447 /* MockData.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		CE91183A1D687181002EC447 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CED92BB51D65C1370079C55D /* MainViewController.h */,
+				CED92BB61D65C1370079C55D /* MainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		CED92BA31D65C1370079C55D = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +161,12 @@
 		CED92BAE1D65C1370079C55D /* MovingImage */ = {
 			isa = PBXGroup;
 			children = (
+				CE91183A1D687181002EC447 /* ViewControllers */,
+				CE9118361D686FF2002EC447 /* Service */,
+				CE91182E1D68663B002EC447 /* Views */,
+				CE9118171D6826DA002EC447 /* Models */,
 				CED92BB21D65C1370079C55D /* AppDelegate.h */,
 				CED92BB31D65C1370079C55D /* AppDelegate.m */,
-				CED92BB51D65C1370079C55D /* ViewController.h */,
-				CED92BB61D65C1370079C55D /* ViewController.m */,
 				CED92BB81D65C1370079C55D /* Main.storyboard */,
 				CED92BBB1D65C1380079C55D /* Assets.xcassets */,
 				CED92BBD1D65C1380079C55D /* LaunchScreen.storyboard */,
@@ -247,6 +309,7 @@
 				CED92BBF1D65C1380079C55D /* LaunchScreen.storyboard in Resources */,
 				CED92BBC1D65C1380079C55D /* Assets.xcassets in Resources */,
 				CED92BBA1D65C1370079C55D /* Main.storyboard in Resources */,
+				CECBB6631D6A205A00C11E6E /* testImages.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED92BB71D65C1370079C55D /* ViewController.m in Sources */,
+				CED92BB71D65C1370079C55D /* MainViewController.m in Sources */,
+				CE9118391D68703B002EC447 /* MockData.m in Sources */,
+				CE9118351D686B04002EC447 /* ImageMap.m in Sources */,
+				CE9118321D686695002EC447 /* ImageContanierView.m in Sources */,
+				CE9118251D685F6E002EC447 /* RectCoordinateCollection.m in Sources */,
 				CED92BB41D65C1370079C55D /* AppDelegate.m in Sources */,
 				CED92BB11D65C1370079C55D /* main.m in Sources */,
+				CE9118201D6830BB002EC447 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +436,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -406,6 +478,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -505,6 +581,7 @@
 				CED92BDB1D65C1380079C55D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED92BDC1D65C1380079C55D /* Build configuration list for PBXNativeTarget "MovingImageTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +590,7 @@
 				CED92BDE1D65C1380079C55D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED92BDF1D65C1380079C55D /* Build configuration list for PBXNativeTarget "MovingImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +599,7 @@
 				CED92BE11D65C1380079C55D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
